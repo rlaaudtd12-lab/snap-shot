@@ -1,0 +1,5 @@
+# Optional final deliverable / verification tools (separate from runtime detection).
+python-pptx==1.0.2
+reportlab==5.0.1
+ruff==0.16.9
+pymupdf==1.28.2

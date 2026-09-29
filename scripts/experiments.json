@@ -1,0 +1,24 @@
+{
+  "base_config": "config.json",
+  "ground_truth": "docs/ground_truth_template.csv",
+  "output_dir": "outputs/experiments",
+  "video_glob": "data/samples/*.mp4",
+  "repeats": 1,
+  "timeout_seconds": 600,
+  "tolerance_s": 0.0,
+  "merge_zone_intervals": null,
+  "event_types": {
+    "intrusion": "intrusion", "normal": "normal", "침입": "intrusion",
+    "none": "normal", "오래 머물기": null, "스쳐 지나감": null,
+    "구역 나감": null, "근처에 머무름": null
+  },
+  "videos": [
+    {"video": "data/samples/Rest.mp4", "zones": "data/zone_setting_1.json", "truth_complete": true},
+    {"video": "data/samples/Browse.mp4", "zones": "data/zone_setting_1.json", "truth_complete": true},
+    {"video": "data/samples/Danger.mp4", "zones": "data/zone_setting_2.json", "truth_complete": true},
+    {"video": "data/samples/ThreeDanger.mp4", "zones": "data/zone_setting_2.json", "truth_complete": true},
+    {"video": "data/samples/Near_walk.mp4", "zones": "data/zone_setting_2.json", "truth_complete": true},
+    {"video": "data/samples/LeftBox.mp4", "zones": "data/zone_setting_1.json", "truth_complete": true},
+    {"video": "data/samples/long_stay.mp4", "zones": "data/zone_setting_1.json", "truth_complete": true}
+  ]
+}

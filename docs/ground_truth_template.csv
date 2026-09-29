@@ -1,0 +1,10 @@
+video_name,zone_name,start_time,end_time,event_type
+/data/samples/Rest.mp4,/data/zone_setting_1.json,36,39,intrusion
+/data/samples/Browse.mp4,/data/zone_setting_1.json,1,6,intrusion
+/data/samples/Danger.mp4,/data/zone_setting_2.json,8,10,intrusion
+/data/samples/Danger.mp4,/data/zone_setting_2.json,12,13,intrusion
+/data/samples/ThreeDanger.mp4,/data/zone_setting_2.json,10,11,intrusion
+/data/samples/ThreeDanger.mp4,/data/zone_setting_2.json,58,59,intrusion
+/data/samples/Near_walk.mp4,/data/zone_setting_2.json,none,none,none
+/data/samples/LeftBox.mp4,/data/zone_setting_1.json,1.56,34.84,intrusion
+/data/samples/long_stay.mp4,/data/zone_setting_1.json,34.44,76.12,intrusion

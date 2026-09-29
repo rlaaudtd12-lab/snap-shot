@@ -1,0 +1,42 @@
+{
+  "blur_kernel": 5,
+  "canny_low": 50,
+  "canny_high": 150,
+  "min_area": 200,
+  "source": "data/samples/test.mp4",
+  "zones_path": "data/zones.json",
+  "mog2": {
+    "history": 500,
+    "var_threshold": 16.0,
+    "detect_shadows": true
+  },
+  "consecutive_frames": 5,
+  "clear_frames": 10,
+  "pre_seconds": 3.0,
+  "post_seconds": 5.0,
+  "analysis_resolution": [
+    640,
+    360
+  ],
+  "roi_enabled": false,
+  "queue_max_size": 8,
+  "queue_policy": "block",
+  "frame_interval": 1,
+  "measure_fps": true,
+  "warmup_frames": 30,
+  "resize_enabled": true,
+  "roi_margin": 32,
+  "no_display": false,
+  "mock_detection": false,
+  "recording_enabled": true,
+  "recording_codec": "mp4v",
+  "recorder_max_mb": 1024,
+  "output_dir": "results",
+  "input_resolution": null,
+  "experiment_kind": "throughput",
+  "timestamp_mode": "cfr",
+  "camera_fps": 30.0,
+  "duration_seconds": 0.0,
+  "loop_video": false,
+  "thread_join_timeout": 5.0
+}

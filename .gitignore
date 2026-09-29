@@ -1,0 +1,18 @@
+# 용량이 큰 데이터와 결과물은 올리지 않습니다
+data/samples/
+results/
+*.mp4
+*.avi
+__pycache__/
+.vscode/
+.venv/
+*.pyc
+
+# 인증 정보, 노트북 임시 파일 및 로그
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+*.log
+*.Zone.Identifier
+*:Zone.Identifier
